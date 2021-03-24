@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  min-height: 100vh;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*Genel tanımlamar*/
+.fas {
+  pointer-events: none;
+}
+
+.passive {
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+.active {
+  opacity: 1;
+  pointer-events: all;
+}
+
+/*Anasayfa*/
+.main-form {
+  padding: 1rem;
+}
+
+.info-box {
+  border: 1px solid red;
+  border-radius: .3rem;
+  padding: .5rem;
+  font-size: 1.2rem;
+  visibility: hidden;
+}
+
+/*Biletler*/
+
+/*Admin paneli*/
+
+.admin-button {
+  min-width: 50%;
+  font-size: 1rem;
+}
+
+.admin-userbutton {
+  min-width: 30%;
+}
+
+/*Kullanıcı işlemleri*/
+.table-button {
+  display: inline-block;
+  margin-right: 1rem;
+}
+
+#adduserform {
+  display: none;
+}
